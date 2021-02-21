@@ -17,14 +17,14 @@ The camera would then capture the image and transmit it over the internet for th
 6. A simple website was created using HTML, CSS and some Javascript.
 
 ## File Structure:
-├── Eagle Files
-├── Webcam_Firmware_Design
-│   ├── Debug
-│   └── src
-└── web_design
-    ├── images
-    ├── scripts
-    └── styles
+├── Eagle Files<br>
+├── Webcam_Firmware_Design<br>
+│   ├── Debug<br>
+│   └── src<br>
+└── web_design<br>
+    ├── images<br>
+    ├── scripts<br>
+    └── styles<br>
 
 ## Firmware details:
 1. The main.c file in the /src folder contains the main function.
