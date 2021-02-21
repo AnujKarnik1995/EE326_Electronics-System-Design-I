@@ -9,11 +9,12 @@ The user would log onto the website and trigger the camera from a web browser.<b
 The camera would then capture the image and transmit it over the internet for the user to view in the web browser.
 
 ## Hardware, Firmware and other tools:
-For this project, we used a SAM4S8B microcontroller, an AMW136 Wi-Fi module and an OV2640 camera SoC. <br>
-A J-Link debugger was used for debugging purposes.<br>
-The Atmel studio IDE was used for programming and coding was done in C.<br>
-A custom PCB was designed using Eagle PCB CAD.<br>
-The enclosure was designed in Catia and was 3D printed.
+1. For this project, we used a SAM4S8B microcontroller, an AMW136 Wi-Fi module and an OV2640 camera SoC. <br>
+2. A J-Link debugger was used for debugging purposes.<br>
+3. The Atmel studio IDE was used for programming and coding was done in C.<br>
+4. A custom PCB was designed using Eagle PCB CAD.<br>
+5. The enclosure was designed in Catia and was 3D printed.
+6. A simple website was created using HTML, CSS and some Javascript.
 
 ## File Structure:
 ├── Eagle Files
