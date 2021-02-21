@@ -1,0 +1,40 @@
+/*Info page*/
+.infotxt{
+text-align: center;
+font-size: 25px;
+padding-bottom: 10px;
+}
+
+.heading{
+font-size: 30px;
+padding-top: 10px; 
+color: #0bfcef;
+}
+
+.brdr{
+/*padding-top: 20px*/
+border-style: solid;
+}
+
+
+.bar{
+text-align:center;
+border: 1px solid #ccc;
+padding: 8px;
+}
+
+li{
+display: inline;
+padding-right: 10px;
+}
+/*links*/
+a:link{
+color: blue;
+}
+a:active{
+color:red;
+}
+a:visited {
+color: purple;
+}
+

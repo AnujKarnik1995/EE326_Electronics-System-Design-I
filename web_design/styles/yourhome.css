@@ -1,0 +1,106 @@
+/*Your Home*/
+h1{
+text-decoration: bold;
+text-decoration: underline;
+}
+
+.brdr{
+/*padding-top: 20px*/
+border-style: solid;
+float: center;
+}
+
+.column1 {
+  float: left;
+  width: 28%;
+  padding-left: 300px;
+padding-top: 80px;
+  font-size: 25px;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+padding-top: 50px;
+padding-left: 50px;
+}
+
+.column3 {
+  text-align:center;
+  width: 33.33%;
+  padding: 5px;	
+  padding-left:600px
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img{
+text-align: right;
+padding-top:75px;
+padding-right:100px;
+padding-bottom:50px;
+float: top;
+
+}
+
+.sgnot{
+text-align: center;
+font-size: 20px;
+padding-bottom: 30px;
+}
+
+button2{
+background-color: white;
+  color: black;
+  padding: 5px 7px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius:5px;
+  cursor: pointer;
+  width: 25%;
+}
+
+
+.btn{
+padding-top: 20px;
+}
+button{
+background-color: white;
+  font-size:20px;
+  color: blue;
+  padding: 7px 7px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius:5px;
+  cursor: pointer;
+  width: auto;
+}
+
+.bar{
+text-align:center;
+border: 1px solid #ccc;
+padding: 8px;
+}
+
+li{
+display: inline;
+padding-right: 10px;
+}
+
+/*links*/
+a:link{
+color: blue;
+}
+a:active{
+color:red;
+}
+a:visited {
+color: purple;
+}
+

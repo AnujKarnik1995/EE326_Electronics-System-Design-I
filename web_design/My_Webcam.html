@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Webcam</title>
+	
+	<link href="../web_design/styles/webcam_styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="brdr">
+<div class="bar"> 
+<ul>
+  <li><a href="../web_design/index.html">Login</a></li>
+  <li><a href="../web_design/infopage.html">Info</a></li>
+  <li><a href="../web_design/yourhome.html">Your Home</a></li>
+  <li><a href="../web_design/My_Webcam.html">Live View</a></li>
+  <li><a href="../web_design/index.html" target="_blank">Management System</a></li>
+</ul> 	
+</div>
+   <h1>My Webcam</h1>
+   
+   <div class="btn"><button id="btnWS" title="Click to Start Webcam" disabled="disabled">Click to Start Webcam</button></div>
+   
+   <div class="date"><h3>Time Stamp: </h3><br>
+   <span id="timestamp"></span>
+   </div>
+   
+   <div class="stream"><img id="image" alt="My webcam image" width="640" height="480"></div>
+   
+   <div class="data"><h3>Log</h3>
+   
+   <textarea id="msg" rows="20" cols="50">Connecting to ws://setup.com/stream ...
+Websocket error
+Disconnected. Error: [object CloseEvent]
+Connecting to ws://setup.com/stream ...
+Websocket error
+Disconnected. Error: [object CloseEvent]
+Connecting to ws://setup.com/stream ...
+Websocket error
+Disconnected. Error: [object CloseEvent]
+Connecting to ws://setup.com/stream ...
+Websocket error
+Disconnected. Error: [object CloseEvent]
+Connecting to ws://setup.com/stream ...
+Websocket error
+Disconnected. Error: [object CloseEvent]
+Connecting to ws://setup.com/stream ...
+Websocket error
+Disconnected. Error: [object CloseEvent]
+Connecting to ws://setup.com/stream ...
+Websocket error
+Disconnected. Error: [object CloseEvent]
+Connecting to ws://setup.com/stream ...
+Websocket error
+Disconnected. Error: [object CloseEvent]
+Connecting to ws://setup.com/stream ...
+Websocket error
+Disconnected. Error: [object CloseEvent]
+Connecting to ws://setup.com/stream ...
+Websocket error
+Disconnected. Error: [object CloseEvent]
+Connecting to ws://setup.com/stream ...
+</textarea>
+</div>    
+</div>
+    <script src="../web_design/scripts/webcam_functions.js"></script>
+
+
+</body>
+</html>
